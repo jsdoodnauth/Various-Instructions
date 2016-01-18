@@ -14,7 +14,8 @@
 
 ### Setup Global NPM without SUDO 
 *	mkdir "${HOME}/.npm-packages"
-*	Create '~/.npmrc' and enter: prefix=${HOME}/.npm-packages
+*	Create '~/.npmrc' and enter: 
+		prefix=${HOME}/.npm-packages
 *	In '.bashrc':
 	/************************************/
 
