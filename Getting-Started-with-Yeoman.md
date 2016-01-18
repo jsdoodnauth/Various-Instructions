@@ -1,15 +1,16 @@
-Getting Started with Yeoman
+#Getting Started with Yeoman
 
-+npm install --global npm
+### Update NPM
+*npm install --global npm@latest
 
-* Verify version installation
-+	node --version && npm --version
-+	git --version
+### Verify version installation
+*	node --version && npm --version
+*	git --version
 
-* Setup Global NPM without SUDO 
-+	mkdir "${HOME}/.npm-packages"
-+	Create '~/.npmrc' and enter: prefix=${HOME}/.npm-packages
-+	In '.bashrc':
+### Setup Global NPM without SUDO 
+*	mkdir "${HOME}/.npm-packages"
+*	Create '~/.npmrc' and enter: prefix=${HOME}/.npm-packages
+*	In '.bashrc':
 	/************************************/
 		NPM_PACKAGES="${HOME}/.npm-packages"
 
@@ -19,21 +20,21 @@ Getting Started with Yeoman
 		unset MANPATH # delete if you already modified MANPATH elsewhere in your config
 		export MANPATH="$NPM_PACKAGES/share/man:$(manpath)"
 	/************************************/
-* Install Yeoman
-+	npm install --global yo bower grunt-cli
+### Install Yeoman
+*	npm install --global yo bower grunt-cli
 
-* Confirm Installation
-+	yo --version && bower --version && grunt --version
+### Confirm Installation
+*	yo --version && bower --version && grunt --version
 
-* Install Test tools
-+	npm install grunt-karma karma karma-phantomjs-launcher karma-jasmine jasmine-core phantomjs --save-dev
+### Install Test tools
+*	npm install grunt-karma karma karma-phantomjs-launcher karma-jasmine jasmine-core phantomjs --save-dev
 
-* Install Generators
-+	npm install --global generator-webapp
-+	npm install --global generator-angular generator-karma
+### Install Generators
+*	npm install --global generator-webapp
+*	npm install --global generator-angular generator-karma
 
-* Create App
-+	mkdir <appName> && cd <appName>
+### Create App
+*	mkdir <appName> && cd <appName>
 
-* Run Yeoman Scaffolding
-+	yo
+### Run Yeoman Scaffolding
+*	yo
