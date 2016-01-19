@@ -6,7 +6,7 @@
 * sudo apt-get install -y build-essential
 
 ### Update NPM
-*npm install --global npm@latest
+*npm install -g npm@latest
 
 ### Verify version installation
 *	node --version && npm --version
@@ -28,8 +28,11 @@
 		export MANPATH="$NPM_PACKAGES/share/man:$(manpath)"
 		
 	/************************************/
+*	npm config set prefix '~/.npm-packages'
+*	source ~/.bashrc
+
 ### Install Yeoman
-*	npm install --global yo bower grunt-cli
+*	npm install -g yo bower grunt-cli
 
 ### Confirm Installation
 *	yo --version && bower --version && grunt --version
