@@ -17,7 +17,7 @@
 *	Create '~/.npmrc' and enter: 
 		prefix=${HOME}/.npm-packages
 *	In '.bashrc':
-	/************************************/
+
 
 		NPM_PACKAGES="${HOME}/.npm-packages"
 
@@ -27,7 +27,7 @@
 		unset MANPATH # delete if you already modified MANPATH elsewhere in your config
 		export MANPATH="$NPM_PACKAGES/share/man:$(manpath)"
 		
-	/************************************/
+
 *	npm config set prefix '~/.npm-packages'
 *	source ~/.bashrc
 
@@ -37,6 +37,10 @@
 ### Confirm Installation
 *	yo --version && bower --version && grunt --version
 
+### If 'yo' not found, or issue with NODE_PATH
+
+*	echo "export NODE_PATH=$NODE_PATH:/home/joshua/.npm-packages/lib/node_modules" >> ~/.bashrc && source ~/.bashrc
+
 ### Install Test tools
 *	npm install grunt-karma karma karma-phantomjs-launcher karma-jasmine jasmine-core phantomjs --save-dev
 
@@ -45,7 +49,7 @@
 *	npm install --global generator-angular generator-karma
 
 ### Create App
-*	mkdir <appName> && cd <appName>
+*	mkdir [appName] && cd [appName]
 
 ### Run Yeoman Scaffolding
 *	yo
