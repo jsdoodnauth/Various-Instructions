@@ -49,3 +49,9 @@
 
 ### Run Yeoman Scaffolding
 *	yo
+
+### Setup from a Repo
+*	git clone [repo url]
+*	cd [repo]
+*	npm install <- install Package dependences
+*	bower install <- install Project dependences
