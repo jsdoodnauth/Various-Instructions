@@ -5,13 +5,6 @@
 *	sudo apt-get install -y nodejs
 *	sudo apt-get install -y build-essential
 
-### Update NPM
-*	npm install -g npm@latest
-
-### Verify version installation
-*	node --version && npm --version
-*	git --version
-
 ### Setup Global NPM without SUDO 
 *	mkdir "${HOME}/.npm-packages"
 *	Create '~/.npmrc' and enter: 
@@ -28,8 +21,15 @@
 		export MANPATH="$NPM_PACKAGES/share/man:$(manpath)"
 		
 
-*	npm config set prefix '~/.npm-packages'
+*	npm config set prefix '~/.npm-packages'    <- This may error out, that's ok
 *	source ~/.bashrc
+
+### Update NPM
+*	npm install -g npm@latest
+
+### Verify version installation
+*	node --version && npm --version
+*	git --version
 
 ### Install Yeoman
 *	npm install -g yo bower grunt-cli
