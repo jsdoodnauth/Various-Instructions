@@ -59,3 +59,7 @@
 *	cd [repo]
 *	npm install <- install Package dependences
 *	bower install <- install Project dependences
+
+### Fix issue with bower not pulling from git://
+*	git config --global url."https://".insteadOf git://
+*	
