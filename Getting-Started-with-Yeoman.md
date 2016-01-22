@@ -39,7 +39,7 @@
 
 ### If 'yo' not found, or issue with NODE_PATH
 
-*	echo "export NODE_PATH=$NODE_PATH:/home/joshua/.npm-packages/lib/node_modules" >> ~/.bashrc && source ~/.bashrc
+*	echo "export NODE_PATH=$NODE_PATH:/home/$USER/.npm-packages/lib/node_modules" >> ~/.bashrc && source ~/.bashrc
 
 ### Install Test tools
 *	npm install grunt-karma karma karma-phantomjs-launcher karma-jasmine jasmine-core phantomjs --save-dev
