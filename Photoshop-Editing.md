@@ -31,4 +31,7 @@ With PC Shortcuts
 - Edit -> Fill (Blending -> Mode = Lighten usually has improved results, but this is trial/error process)
 Ref: https://www.youtube.com/watch?v=yBCj8Kg9lZg
 
+##Before you Export
+https://markdenneyphotography.com/blogindex/do-this-before-you-export-your-landscape-photos
+
 Video Edit Video - https://www.youtube.com/watch?v=Fo_7-g_Hdvc
