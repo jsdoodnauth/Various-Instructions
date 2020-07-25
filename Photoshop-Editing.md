@@ -31,6 +31,8 @@ With PC Shortcuts
 - Edit -> Fill (Blending -> Mode = Lighten usually has improved results, but this is trial/error process)
 Ref: https://www.youtube.com/watch?v=yBCj8Kg9lZg
 
+##Focus Stacking - https://www.photoshopessentials.com/photo-editing/focus-stack-images-photoshop/
+
 ##Before you Export
 https://markdenneyphotography.com/blogindex/do-this-before-you-export-your-landscape-photos
 
