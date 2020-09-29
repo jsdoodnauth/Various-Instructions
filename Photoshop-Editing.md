@@ -37,3 +37,7 @@ Ref: https://www.youtube.com/watch?v=yBCj8Kg9lZg
 https://markdenneyphotography.com/blogindex/do-this-before-you-export-your-landscape-photos
 
 Video Edit Video - https://www.youtube.com/watch?v=Fo_7-g_Hdvc
+
+** Controling Colour (Great HSL Tutorial) - https://www.youtube.com/watch?v=09CAkP6LJbw
+
+Moody PHoto Edit - https://www.youtube.com/watch?v=sRYeWpD-zgI
