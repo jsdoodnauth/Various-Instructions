@@ -41,3 +41,9 @@ Video Edit Video - https://www.youtube.com/watch?v=Fo_7-g_Hdvc
 ** Controling Colour (Great HSL Tutorial) - https://www.youtube.com/watch?v=09CAkP6LJbw
 
 Moody PHoto Edit - https://www.youtube.com/watch?v=sRYeWpD-zgI
+
+
+##Instagram Optimize
+- Crop to 4x5 (2700x3375 insta will compress down to 1080x1350)
+- Run Photoshop Filter->Sharpen->Sharpen
+- Save as Image Quality 12 (probably 100), Progressive is ticked
